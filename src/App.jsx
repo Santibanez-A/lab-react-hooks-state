@@ -35,7 +35,7 @@ const App = () => {
         <option value="all">All</option>
         <option value="Fruits">Fruits</option>
         <option value="Dairy">Dairy</option>
-        <option value="NonExistent">NonExistent</option>
+        <option value="Veggies">Veggies</option>
       </select>
 
       <ProductList selectedCategory={category} onAddToCart={handleAddToCart} />
